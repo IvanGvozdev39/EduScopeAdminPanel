@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "764365846464",
+    "firebase_url": "https://eduscope-f19aa-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "eduscope-f19aa",
+    "storage_bucket": "eduscope-f19aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764365846464:android:187d62015c2e023ae27a25",
+        "android_client_info": {
+          "package_name": "com.eduscope.eduscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764365846464-38oo5hu80pjdv77f68g6e2jelum9n4ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBDdPr1Kq1FQFQ-h4R3qg2Q79S6ALvUzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764365846464-38oo5hu80pjdv77f68g6e2jelum9n4ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764365846464:android:56ae1e4f71df35a0e27a25",
+        "android_client_info": {
+          "package_name": "com.eduscope.eduscopeadminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764365846464-38oo5hu80pjdv77f68g6e2jelum9n4ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBDdPr1Kq1FQFQ-h4R3qg2Q79S6ALvUzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764365846464-38oo5hu80pjdv77f68g6e2jelum9n4ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

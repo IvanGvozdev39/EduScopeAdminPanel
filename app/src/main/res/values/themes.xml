@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PhSc" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/BSUIR_Blue</item>
+        <!-- Secondary brand color. -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHighlight">@color/text_highlight_blue</item>
+        <item name="colorAccent">@color/BSUIR_Blue</item>
+
+    </style>
+
+
+    <style name="Theme.Splash_Screen" parent="Theme.PhSc">
+        <item name="colorPrimary">@color/admin_panel_gray</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+
+    <style name="MyDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+
+    <style name="Theme.PhSc.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PhSc.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="queryHint">@color/dark_text</item>
+    </style>
+
+    <style name="SearchViewStyleDark" parent="Widget.AppCompat.SearchView">
+        <item name="queryHint">@color/light_text</item>
+    </style>
+
+
+    <style name="Theme.PhSc.NoActionBar" parent="Theme.PhSc">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="RoundedCornerDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@drawable/round_back_white_10</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="NumberPickerText">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="PreferenceScreen" parent="Theme.AppCompat.DayNight">
+
+        <item name="trackTint">@color/BSUIR_Blue</item>
+        <item name="colorControlActivated">@color/BSUIR_Blue</item>
+        <item name="android:colorForeground">@color/switch_preference_off</item>
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorAlertDialogListItem">@color/dark_text</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorPrimary">@color/BSUIR_Blue</item>
+        <item name="colorPrimaryDark">@color/BSUIR_Blue</item>
+        <item name="colorAccent">@color/BSUIR_Blue</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:colorEdgeEffect">@color/BSUIR_Blue</item>
+    </style>
+</resources>
